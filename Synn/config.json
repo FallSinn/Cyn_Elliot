@@ -1,0 +1,23 @@
+{
+  "name": "Synn",
+  "wake_word": "synn",
+  "speech": {
+    "voice_rate": 175,
+    "volume": 0.8,
+    "language": "en-US",
+    "voice": null
+  },
+  "api": {
+    "host": "127.0.0.1",
+    "port": 8002
+  },
+  "logging": {
+    "dialogue_log": "logs/dialogue_log.jsonl",
+    "emotion_log": "logs/emotion_log.jsonl",
+    "reflection_log": "logs/reflection.log"
+  },
+  "dialogue": {
+    "temperature": 0.6,
+    "max_history": 10
+  }
+}
