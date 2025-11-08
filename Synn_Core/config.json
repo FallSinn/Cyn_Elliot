@@ -1,0 +1,35 @@
+{
+  "wake_word": "synn",
+  "speech": {
+    "recognizer": "vosk",
+    "vosk_model_path": "models/vosk",
+    "tts_backend": "pyttsx3",
+    "voice_persona": "neutral",
+    "rate": 180,
+    "pitch": 50
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.6,
+    "api_key": "YOUR_API_KEY_HERE",
+    "system_prompt": "You are Synn, a multimodal AI assistant who cares deeply about user wellbeing."
+  },
+  "memory": {
+    "short_term_limit": 12,
+    "long_term_path": "Synn_Core/memory/long_term.db",
+    "plugin_dir": "Synn_Core/plugins"
+  },
+  "logging_dir": "Synn_Core/logs",
+  "api": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 8080,
+    "enable_vision": false,
+    "enable_audio_monitor": false
+  },
+  "gui": {
+    "enabled": true,
+    "title": "Synn Core Console"
+  }
+}

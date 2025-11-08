@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sentence-transformers
+numpy
+sounddevice
+vosk
+pyttsx3
+gTTS
+opencv-python
+vaderSentiment
+pydantic
